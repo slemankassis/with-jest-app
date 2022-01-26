@@ -2,7 +2,7 @@ import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 
 const AllTheProviders = ({ children }) => {
-  const clientSideEmotionCache = createEmotionCache();
+  // const clientSideEmotionCache = createEmotionCache();
 
   return (
           <div >{children}</div>
